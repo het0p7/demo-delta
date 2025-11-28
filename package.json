@@ -1,0 +1,24 @@
+{
+  "name": "demo-delta",
+  "version": "1.0.0",
+  "description": "This is demo for Git and Github class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/het0p7/demo-delta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/het0p7/demo-delta/issues"
+  },
+  "homepage": "https://github.com/het0p7/demo-delta#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11"
+  }
+}
