@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "This is demo for Git and Github class.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npx jest --experimental-vm-modules"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
